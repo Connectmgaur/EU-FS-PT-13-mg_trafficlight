@@ -2,7 +2,7 @@
 
 First make sure to choose your platform:
 
-## Deploying to Github pages:
+## Deploying to Github pages for meenakshi:
 
 It's great for small projects that don't require your own domain or real use with users and growth, for example: Personal portfolio websites.
 
