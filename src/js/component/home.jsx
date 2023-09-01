@@ -1,26 +1,15 @@
 import React, { useState } from "react";
+import TrafficLight from "./trafficlight";
 
-const TrafficLight = () => {
-  const [color, setColor] = useState("red");
+const Home = () => {
+  
 
   return (
-    <div className="traffic_light">
-      <div
-        onClick={() => setColor("red")}
-        className={"light red" + (color === "red" ? " glow" : "")}
-      ></div>
+    <div>
+      <TrafficLight test={"Meenakshi"}/>
 
-      <div
-        onClick={() => setColor("orange")}
-        className={"light orange" + (color === "orange" ? " glow" : "")}
-      ></div>
-
-      <div
-        onClick={() => setColor("green")}
-        className={"light green" + (color === "green" ? " glow" : "")}
-      ></div>
     </div>
   );
 };
 
-export default TrafficLight;
+export default Home;
