@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div>
-      <TrafficLight test={"Meenakshi"}/>
+      <TrafficLight test={"Traffic Light"}/>
 
     </div>
   );
