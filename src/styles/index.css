@@ -15,7 +15,8 @@
     padding: 20px;
     display: inline-block;
     margin: auto;
-
+    margin-top: 16px;
+    
 }
 
 .light{
@@ -36,3 +37,17 @@
 .glow{
     box-shadow: 0 0 9px 4px #7478e8
 }
+.btn{
+    border-radius: 8px;
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
